@@ -7,7 +7,7 @@ const AuthorItems = ({ nftCollection, image }) => {
     <div className="de_tab_content">
       <div className="tab-1">
         <div className="row">
-          {!nftCollection
+          {nftCollection
             ? nftCollection.map((item, index) => (
                 <div
                   className="col-lg-3 col-md-6 col-sm-6 col-xs-12"

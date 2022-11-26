@@ -41,7 +41,7 @@ const Author = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                {loading ? (
+                {!loading ? (
                   <div className="d_profile de-flex">
                     <div className="de-flex-col">
                       <div className="profile_avatar">
