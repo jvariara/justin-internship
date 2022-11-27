@@ -139,7 +139,11 @@ const ExploreItems = () => {
             </div>
           ))}
 
-      <div className="col-md-12 text-center">
+      <div
+        className="col-md-12 text-center"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <Link
           to=""
           id="loadmore"

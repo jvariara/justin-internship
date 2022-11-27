@@ -27,7 +27,11 @@ const TopSellers = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
-          <div className="col-md-12">
+          <div
+            className="col-md-12"
+            data-aos="fade-in"
+            data-aos-duration="1500"
+          >
             {topSellers.length ? (
               <ol className="author_list">
                 {topSellers.map((seller, index) => (
@@ -61,7 +65,9 @@ const TopSellers = () => {
                     </div>
                     <div className="author_list_info">
                       <Skeleton width="100px" height="20px" />
-                      <span><Skeleton width="40px" height="20px" /></span>
+                      <span>
+                        <Skeleton width="40px" height="20px" />
+                      </span>
                     </div>
                   </li>
                 ))}
